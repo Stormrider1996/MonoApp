@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Common", "VehicleWiki.Common\VehicleWiki.Common.csproj", "{0E58CB13-5AC0-40CB-8C3C-3B44760C37FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.DAL", "VehicleWiki.DAL\VehicleWiki.DAL.csproj", "{F36058D4-4674-4E4D-B702-63C338287046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Model.Common", "VehicleWiki.Model.Common\VehicleWiki.Model.Common.csproj", "{4385A3B0-C18D-4B20-9D0D-E89ED6F98D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Model", "VehicleWiki.Model\VehicleWiki.Model.csproj", "{8DAC288A-4138-4A9B-8E0E-774DDDEC09E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Repository.Common", "VehicleWiki.Repository.Common\VehicleWiki.Repository.Common.csproj", "{E8C5A2BF-274B-4794-A9E7-CF1FE8968930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Repository.Tests", "VehicleWiki.Repository.Tests\VehicleWiki.Repository.Tests.csproj", "{ED4124F5-1C20-49BD-B2A4-997849E4F26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Repository", "VehicleWiki.Repository\VehicleWiki.Repository.csproj", "{CD4FFBB4-1154-4089-BDF8-1D3D498C0B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Service.Common", "VehicleWiki.Service.Common\VehicleWiki.Service.Common.csproj", "{AE237CCF-DABE-479E-886E-307116EC881A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Service.Tests", "VehicleWiki.Service.Tests\VehicleWiki.Service.Tests.csproj", "{9E285CCF-E603-4220-8E42-44F9235077C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Service", "VehicleWiki.Service\VehicleWiki.Service.csproj", "{12D2C5FA-751A-4199-8E52-F8C5C5BDD25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.WebAPI.Tests", "VehicleWiki.WebAPI.Tests\VehicleWiki.WebAPI.Tests.csproj", "{56C84834-162F-43EC-9905-C6A2CAE845EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.WebAPI", "VehicleWiki.WebAPI\VehicleWiki.WebAPI.csproj", "{109D0B0D-87CF-4477-A12B-1C02704A155C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E58CB13-5AC0-40CB-8C3C-3B44760C37FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E58CB13-5AC0-40CB-8C3C-3B44760C37FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E58CB13-5AC0-40CB-8C3C-3B44760C37FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E58CB13-5AC0-40CB-8C3C-3B44760C37FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36058D4-4674-4E4D-B702-63C338287046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36058D4-4674-4E4D-B702-63C338287046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36058D4-4674-4E4D-B702-63C338287046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36058D4-4674-4E4D-B702-63C338287046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4385A3B0-C18D-4B20-9D0D-E89ED6F98D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4385A3B0-C18D-4B20-9D0D-E89ED6F98D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4385A3B0-C18D-4B20-9D0D-E89ED6F98D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4385A3B0-C18D-4B20-9D0D-E89ED6F98D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAC288A-4138-4A9B-8E0E-774DDDEC09E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAC288A-4138-4A9B-8E0E-774DDDEC09E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAC288A-4138-4A9B-8E0E-774DDDEC09E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAC288A-4138-4A9B-8E0E-774DDDEC09E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C5A2BF-274B-4794-A9E7-CF1FE8968930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C5A2BF-274B-4794-A9E7-CF1FE8968930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C5A2BF-274B-4794-A9E7-CF1FE8968930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C5A2BF-274B-4794-A9E7-CF1FE8968930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4124F5-1C20-49BD-B2A4-997849E4F26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4124F5-1C20-49BD-B2A4-997849E4F26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4124F5-1C20-49BD-B2A4-997849E4F26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4124F5-1C20-49BD-B2A4-997849E4F26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4FFBB4-1154-4089-BDF8-1D3D498C0B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4FFBB4-1154-4089-BDF8-1D3D498C0B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4FFBB4-1154-4089-BDF8-1D3D498C0B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4FFBB4-1154-4089-BDF8-1D3D498C0B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE237CCF-DABE-479E-886E-307116EC881A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE237CCF-DABE-479E-886E-307116EC881A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE237CCF-DABE-479E-886E-307116EC881A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE237CCF-DABE-479E-886E-307116EC881A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E285CCF-E603-4220-8E42-44F9235077C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E285CCF-E603-4220-8E42-44F9235077C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E285CCF-E603-4220-8E42-44F9235077C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E285CCF-E603-4220-8E42-44F9235077C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D2C5FA-751A-4199-8E52-F8C5C5BDD25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D2C5FA-751A-4199-8E52-F8C5C5BDD25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D2C5FA-751A-4199-8E52-F8C5C5BDD25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D2C5FA-751A-4199-8E52-F8C5C5BDD25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C84834-162F-43EC-9905-C6A2CAE845EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C84834-162F-43EC-9905-C6A2CAE845EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C84834-162F-43EC-9905-C6A2CAE845EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C84834-162F-43EC-9905-C6A2CAE845EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109D0B0D-87CF-4477-A12B-1C02704A155C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109D0B0D-87CF-4477-A12B-1C02704A155C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109D0B0D-87CF-4477-A12B-1C02704A155C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109D0B0D-87CF-4477-A12B-1C02704A155C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/bin/Debug/net8.0/VehicleWiki.Model.deps.json
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/bin/Debug/net8.0/VehicleWiki.Model.dll
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/bin/Debug/net8.0/VehicleWiki.Model.pdb
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/VehicleWiki.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/VehicleWiki.Model.AssemblyInfoInputs.cache
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/VehicleWiki.Model.AssemblyInfo.cs
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/VehicleWiki.Model.csproj.CoreCompileInputs.cache
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/VehicleWiki.Model.sourcelink.json
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/VehicleWiki.Model.dll
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/refint/VehicleWiki.Model.dll
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/VehicleWiki.Model.pdb
+/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/Debug/net8.0/ref/VehicleWiki.Model.dll

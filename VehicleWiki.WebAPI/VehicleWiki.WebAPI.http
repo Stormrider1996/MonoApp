@@ -1,0 +1,6 @@
+@VehicleWiki.WebAPI_HostAddress = http://localhost:5094
+
+GET {{VehicleWiki.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
