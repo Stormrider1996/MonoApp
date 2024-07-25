@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "VehicleWiki.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Dtos.dll": {}
+        }
+      },
+      "VehicleWiki.Model.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Model.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Model.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "VehicleWiki.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Dtos/VehicleWiki.Dtos.csproj",
+      "msbuildProject": "../VehicleWiki.Dtos/VehicleWiki.Dtos.csproj"
+    },
+    "VehicleWiki.Model.Common/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj",
+      "msbuildProject": "../VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "VehicleWiki.Dtos >= 1.0.0",
+      "VehicleWiki.Model.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/fjumic/.nuget/packages/": {}
@@ -31,7 +66,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj": {
+              "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj"
+            },
+            "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj": {
+              "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -9,6 +9,9 @@
   <ItemGroup>
     <PackageReference Include="AutoFac" Version="8.0.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Contrib.Autofac.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,6 +24,10 @@
     <ProjectReference Include="..\VehicleWiki.DAL\VehicleWiki.DAL.csproj" />
     <ProjectReference Include="..\VehicleWiki.Repository\VehicleWiki.Repository.csproj" />
     <ProjectReference Include="..\VehicleWiki.Repository.Common\VehicleWiki.Repository.Common.csproj" />
+    <ProjectReference Include="..\VehicleWiki.Dtos\VehicleWiki.Dtos.csproj" />
+    <ProjectReference Include="..\VehicleWiki.Service.Common\VehicleWiki.Service.Common.csproj" />
+    <ProjectReference Include="..\VehicleWiki.Common\VehicleWiki.Common.csproj" />
+    <ProjectReference Include="..\VehicleWiki.Service\VehicleWiki.Service.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,13 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using AutoMapper.Contrib.Autofac.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using VehicleWiki.DAL;
 using VehicleWiki.Repository;
 using VehicleWiki.Repository.Common;
+using VehicleWiki.Service;
+using VehicleWiki.Service.Common;
+using VehicleWiki.WebAPI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,12 +20,19 @@ builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
     builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
     builder.RegisterType<VehicleMakeRepository>().As<IVehicleMakeRepository>().InstancePerLifetimeScope();
     builder.RegisterType<VehicleModelRepository>().As<IVehicleModelRepository>().InstancePerLifetimeScope();
+    builder.RegisterType<VehicleMakeService>().As<IVehicleMakeService>().InstancePerLifetimeScope();
+    builder.RegisterType<VehicleModelService>().As<IVehicleModelService>().InstancePerLifetimeScope();
+    builder.RegisterAutoMapper(typeof(AutoMapperProfile).Assembly);
 });
 
 // Add services to the container.
 builder.Services.AddDbContext<VehicleDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
+    {
+        options.SuppressModelStateInvalidFilter = false;
+    });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -34,7 +45,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 var summaries = new[]
 {
@@ -55,6 +66,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+app.MapControllers();
 
 app.Run();
 

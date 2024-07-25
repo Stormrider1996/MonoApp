@@ -10,6 +10,10 @@ public class VehicleDbContext : DbContext
 
     }
 
+    public VehicleDbContext()
+    {
+    }
+
     public DbSet<VehicleMake> VehicleMakes { get; set; }
     public DbSet<VehicleModel> VehicleModels { get; set; }
 

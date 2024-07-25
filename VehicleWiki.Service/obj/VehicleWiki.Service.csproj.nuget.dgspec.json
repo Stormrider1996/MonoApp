@@ -4,14 +4,14 @@
     "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/VehicleWiki.Service.csproj": {}
   },
   "projects": {
-    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/VehicleWiki.Service.csproj": {
+    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/VehicleWiki.Service.csproj",
-        "projectName": "VehicleWiki.Service",
-        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/VehicleWiki.Service.csproj",
+        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj",
+        "projectName": "VehicleWiki.Common",
+        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj",
         "packagesPath": "/Users/fjumic/.nuget/packages/",
-        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/obj/",
+        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fjumic/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,390 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj",
+        "projectName": "VehicleWiki.Dtos",
+        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj",
+        "packagesPath": "/Users/fjumic/.nuget/packages/",
+        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fjumic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj",
+        "projectName": "VehicleWiki.Model.Common",
+        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj",
+        "packagesPath": "/Users/fjumic/.nuget/packages/",
+        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fjumic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/VehicleWiki.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/VehicleWiki.Model.csproj",
+        "projectName": "VehicleWiki.Model",
+        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/VehicleWiki.Model.csproj",
+        "packagesPath": "/Users/fjumic/.nuget/packages/",
+        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fjumic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Repository.Common/VehicleWiki.Repository.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Repository.Common/VehicleWiki.Repository.Common.csproj",
+        "projectName": "VehicleWiki.Repository.Common",
+        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Repository.Common/VehicleWiki.Repository.Common.csproj",
+        "packagesPath": "/Users/fjumic/.nuget/packages/",
+        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Repository.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fjumic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj"
+              },
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj"
+              },
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj"
+              },
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/VehicleWiki.Model.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/VehicleWiki.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service.Common/VehicleWiki.Service.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service.Common/VehicleWiki.Service.Common.csproj",
+        "projectName": "VehicleWiki.Service.Common",
+        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service.Common/VehicleWiki.Service.Common.csproj",
+        "packagesPath": "/Users/fjumic/.nuget/packages/",
+        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fjumic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj"
+              },
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/VehicleWiki.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/VehicleWiki.Service.csproj",
+        "projectName": "VehicleWiki.Service",
+        "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/VehicleWiki.Service.csproj",
+        "packagesPath": "/Users/fjumic/.nuget/packages/",
+        "outputPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fjumic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj"
+              },
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Repository.Common/VehicleWiki.Repository.Common.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Repository.Common/VehicleWiki.Repository.Common.csproj"
+              },
+              "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service.Common/VehicleWiki.Service.Common.csproj": {
+                "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Service.Common/VehicleWiki.Service.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

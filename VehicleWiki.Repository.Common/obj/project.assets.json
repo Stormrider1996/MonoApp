@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "VehicleWiki.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Common.dll": {}
+        }
+      },
+      "VehicleWiki.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Dtos.dll": {}
+        }
+      },
       "VehicleWiki.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -11,19 +31,47 @@
         "runtime": {
           "bin/placeholder/VehicleWiki.Model.dll": {}
         }
+      },
+      "VehicleWiki.Model.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Model.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Model.Common.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "VehicleWiki.Common/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Common/VehicleWiki.Common.csproj",
+      "msbuildProject": "../VehicleWiki.Common/VehicleWiki.Common.csproj"
+    },
+    "VehicleWiki.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Dtos/VehicleWiki.Dtos.csproj",
+      "msbuildProject": "../VehicleWiki.Dtos/VehicleWiki.Dtos.csproj"
+    },
     "VehicleWiki.Model/1.0.0": {
       "type": "project",
       "path": "../VehicleWiki.Model/VehicleWiki.Model.csproj",
       "msbuildProject": "../VehicleWiki.Model/VehicleWiki.Model.csproj"
+    },
+    "VehicleWiki.Model.Common/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj",
+      "msbuildProject": "../VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "VehicleWiki.Model >= 1.0.0"
+      "VehicleWiki.Common >= 1.0.0",
+      "VehicleWiki.Dtos >= 1.0.0",
+      "VehicleWiki.Model >= 1.0.0",
+      "VehicleWiki.Model.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,6 +99,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj": {
+              "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Common/VehicleWiki.Common.csproj"
+            },
+            "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj": {
+              "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Dtos/VehicleWiki.Dtos.csproj"
+            },
+            "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj": {
+              "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj"
+            },
             "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/VehicleWiki.Model.csproj": {
               "projectPath": "/Users/fjumic/Desktop/VehicleWiki/VehicleWiki.Model/VehicleWiki.Model.csproj"
             }

@@ -27,13 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.WebAPI.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.WebAPI", "VehicleWiki.WebAPI\VehicleWiki.WebAPI.csproj", "{109D0B0D-87CF-4477-A12B-1C02704A155C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleWiki.Dtos", "VehicleWiki.Dtos\VehicleWiki.Dtos.csproj", "{778E3504-ACC2-4DFB-8E03-20505FFB3E2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0E58CB13-5AC0-40CB-8C3C-3B44760C37FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -84,5 +83,12 @@ Global
 		{109D0B0D-87CF-4477-A12B-1C02704A155C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{109D0B0D-87CF-4477-A12B-1C02704A155C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{109D0B0D-87CF-4477-A12B-1C02704A155C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778E3504-ACC2-4DFB-8E03-20505FFB3E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778E3504-ACC2-4DFB-8E03-20505FFB3E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778E3504-ACC2-4DFB-8E03-20505FFB3E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778E3504-ACC2-4DFB-8E03-20505FFB3E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

@@ -270,6 +270,16 @@
           }
         }
       },
+      "VehicleWiki.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Common.dll": {}
+        }
+      },
       "VehicleWiki.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -285,6 +295,16 @@
           "bin/placeholder/VehicleWiki.DAL.dll": {}
         }
       },
+      "VehicleWiki.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Dtos.dll": {}
+        }
+      },
       "VehicleWiki.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -295,11 +315,24 @@
           "bin/placeholder/VehicleWiki.Model.dll": {}
         }
       },
+      "VehicleWiki.Model.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VehicleWiki.Model.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleWiki.Model.Common.dll": {}
+        }
+      },
       "VehicleWiki.Repository.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "VehicleWiki.Model": "1.0.0"
+          "VehicleWiki.Common": "1.0.0",
+          "VehicleWiki.Dtos": "1.0.0",
+          "VehicleWiki.Model": "1.0.0",
+          "VehicleWiki.Model.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VehicleWiki.Repository.Common.dll": {}
@@ -746,15 +779,30 @@
         "postgresql.png"
       ]
     },
+    "VehicleWiki.Common/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Common/VehicleWiki.Common.csproj",
+      "msbuildProject": "../VehicleWiki.Common/VehicleWiki.Common.csproj"
+    },
     "VehicleWiki.DAL/1.0.0": {
       "type": "project",
       "path": "../VehicleWiki.DAL/VehicleWiki.DAL.csproj",
       "msbuildProject": "../VehicleWiki.DAL/VehicleWiki.DAL.csproj"
     },
+    "VehicleWiki.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Dtos/VehicleWiki.Dtos.csproj",
+      "msbuildProject": "../VehicleWiki.Dtos/VehicleWiki.Dtos.csproj"
+    },
     "VehicleWiki.Model/1.0.0": {
       "type": "project",
       "path": "../VehicleWiki.Model/VehicleWiki.Model.csproj",
       "msbuildProject": "../VehicleWiki.Model/VehicleWiki.Model.csproj"
+    },
+    "VehicleWiki.Model.Common/1.0.0": {
+      "type": "project",
+      "path": "../VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj",
+      "msbuildProject": "../VehicleWiki.Model.Common/VehicleWiki.Model.Common.csproj"
     },
     "VehicleWiki.Repository.Common/1.0.0": {
       "type": "project",

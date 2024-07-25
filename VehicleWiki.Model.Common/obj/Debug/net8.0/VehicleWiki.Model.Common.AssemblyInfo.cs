@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehicleWiki.Model.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5562acf3a25a6073872725c9fa83aa74a02d21d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05328c4db8ba1ee0e30e543ed6e5a6c419578564")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehicleWiki.Model.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehicleWiki.Model.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

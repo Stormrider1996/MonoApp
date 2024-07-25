@@ -2,6 +2,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VehicleWiki.Model\VehicleWiki.Model.csproj" />
+    <ProjectReference Include="..\VehicleWiki.Common\VehicleWiki.Common.csproj" />
+    <ProjectReference Include="..\VehicleWiki.Model.Common\VehicleWiki.Model.Common.csproj" />
+    <ProjectReference Include="..\VehicleWiki.Dtos\VehicleWiki.Dtos.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

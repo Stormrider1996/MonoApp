@@ -1,4 +1,6 @@
 ﻿using System.Linq.Expressions;
+using VehicleWiki.Dtos;
+using VehicleWiki.Model.Common;
 
 namespace VehicleWiki.Repository.Common;
 
